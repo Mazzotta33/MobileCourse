@@ -5,4 +5,13 @@
     <string name="tip_percentage">Tip Percentage</string>
     <string name="round_up_tip">Round up tip?</string>
     <string name="tip_amount">Tip Amount: %s</string>
+
+    <string name="art_1_title">Sunset Sun</string>
+    <string name="art_1_artist">Artist One (2020)</string>
+    <string name="art_2_title">Green Mountain</string>
+    <string name="art_2_artist">Artist Two (2021)</string>
+    <string name="art_3_title">Pink Square</string>
+    <string name="art_3_artist">Artist Three (2022)</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
 </resources>

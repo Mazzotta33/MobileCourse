@@ -54,7 +54,8 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                 ) {
-                    TipTimeLayout()
+                    ArtSpaceApp() // <-- Заменили вызов функции на ArtSpaceApp
+                    //TipTimeLayout()
                 }
             }
         }
