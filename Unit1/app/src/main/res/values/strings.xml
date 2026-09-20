@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Unit1</string>
+    <string name="happy_birthday_text">Happy Birthday Razil!</string>
+    <string name="signature_text">From Razil</string>
+
+    <!-- Compose Article strings -->
+    <string name="article_title">Jetpack Compose tutorial</string>
+    <string name="article_short_desc">Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.</string>
+    <string name="article_long_desc">In this tutorial, you build a simple UI component with declarative functions. You call Compose functions to define what data you want to see and what UI elements you want to display, and the Compose compiler automatically transforms those function calls into a visible UI hierarchy.</string>
+
+    <!-- Task Manager strings -->
+    <string name="task_completed">All tasks completed</string>
+    <string name="task_nice_work">Nice work!</string>
+
+    <!-- Compose Quadrant strings -->
+    <string name="first_title">Text composable</string>
+    <string name="first_description">Displays text and follows the recommended Material Design guidelines.</string>
+    <string name="second_title">Image composable</string>
+    <string name="second_description">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="third_title">Row composable</string>
+    <string name="third_description">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="fourth_title">Column composable</string>
+    <string name="fourth_description">A layout composable that places its children in a vertical sequence.</string>
+</resources>
