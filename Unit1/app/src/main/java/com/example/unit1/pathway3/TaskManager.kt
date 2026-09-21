@@ -29,7 +29,7 @@ fun TaskManagerApp() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(R.drawable.ic_task_completed),
+            painter = painterResource(R.drawable.ic_task),
             contentDescription = null
         )
         Text(
