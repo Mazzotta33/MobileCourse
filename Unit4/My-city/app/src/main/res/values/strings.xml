@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Моя Казань</string>
+    <string name="app_subtitle">Что посмотреть, куда сходить и что попробовать</string>
+    <string name="back_button">Назад</string>
+    <string name="navigation_rail">Navigation Rail</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="details_pane">Details Pane</string>
+    <string name="address_label">Где найти</string>
+
+    <plurals name="places_count">
+        <item quantity="one">%d место</item>
+        <item quantity="few">%d места</item>
+        <item quantity="many">%d мест</item>
+        <item quantity="other">%d места</item>
+    </plurals>
+
+    <!-- Категории -->
+    <string name="category_sights">Достопримечательности</string>
+    <string name="category_sights_short">Места</string>
+    <string name="category_museums_short">Музеи</string>
+    <string name="category_parks_short">Парки</string>
+    <string name="category_food_short">Кухня</string>
+    <string name="category_theaters_short">Театры</string>
+    <string name="category_sights_description">Главные символы тысячелетнего города</string>
+    <string name="category_museums">Музеи</string>
+    <string name="category_museums_description">История, искусство и необычные коллекции</string>
+    <string name="category_parks">Парки и набережные</string>
+    <string name="category_parks_description">Места для прогулок у воды и в зелени</string>
+    <string name="category_food">Татарская кухня</string>
+    <string name="category_food_description">Блюда, которые обязательно нужно попробовать</string>
+    <string name="category_theaters">Театры и цирк</string>
+    <string name="category_theaters_description">Вечер с оперой, спектаклем или представлением</string>
+
+    <!-- Достопримечательности -->
+    <string name="kremlin_name">Казанский Кремль</string>
+    <string name="kremlin_short">Белокаменная крепость — объект Всемирного наследия ЮНЕСКО</string>
+    <string name="kremlin_address">ул. Кремлёвская</string>
+    <string name="kremlin_description">Сердце города и его главная достопримечательность. За белыми стенами крепости соседствуют мечеть Кул-Шариф и Благовещенский собор XVI века — символ мирного соседства двух культур. В 2000 году ансамбль Кремля включён в список Всемирного наследия ЮНЕСКО.\n\nВход на территорию Кремля свободный. Пройдите вдоль стен к смотровым площадкам: оттуда открывается вид на реку Казанку, набережную и новую часть города.</string>
+
+    <string name="kul_sharif_name">Мечеть Кул-Шариф</string>
+    <string name="kul_sharif_short">Бирюзовые купола и четыре минарета в стенах Кремля</string>
+    <string name="kul_sharif_address">Казанский Кремль</string>
+    <string name="kul_sharif_description">Мечеть названа в честь имама Кул-Шарифа, который погиб, защищая Казань в 1552 году. Её открыли в 2005 году, к празднованию тысячелетия города, и сегодня это одна из самых узнаваемых мечетей России.\n\nДля туристов устроен гостевой балкон с видом на молельный зал, а на нижнем этаже работает Музей исламской культуры. При посещении стоит помнить о дресс-коде: закрытые плечи и колени, женщинам — платок.</string>
+
+    <string name="syuyumbike_name">Башня Сююмбике</string>
+    <string name="syuyumbike_short">Знаменитая «падающая» башня — символ Казани</string>
+    <string name="syuyumbike_address">Казанский Кремль</string>
+    <string name="syuyumbike_description">Многоярусная башня из красного кирпича высотой около 58 метров заметно отклонилась от вертикали — её нередко сравнивают с Пизанской. Точная дата постройки неизвестна, поэтому вокруг башни сложилось множество легенд.\n\nСамая известная из них рассказывает о казанской царице Сююмбике, именем которой и названа башня.</string>
+
+    <string name="bauman_name">Улица Баумана</string>
+    <string name="bauman_short">Главная пешеходная улица — «казанский Арбат»</string>
+    <string name="bauman_address">ул. Баумана, от Кремля до площади Тукая</string>
+    <string name="bauman_description">Одна из старейших улиц города ведёт от Кремля к площади Тукая. Здесь стоит высокая колокольня Богоявленского собора и памятник Фёдору Шаляпину, который родился в Казани.\n\nВдоль улицы — исторические особняки, сувенирные лавки, кафе и уличные музыканты. Лучшее место, чтобы просто погулять и почувствовать атмосферу города.</string>
+
+    <string name="farmers_palace_name">Дворец земледельцев</string>
+    <string name="farmers_palace_short">Дворец с бронзовым деревом в арке</string>
+    <string name="farmers_palace_address">ул. Федосеевская, 36</string>
+    <string name="farmers_palace_description">Здание в стиле ампир построено в 2010 году на берегу Казанки рядом с Кремлём. В нём работает Министерство сельского хозяйства Республики Татарстан.\n\nГлавная деталь фасада — огромное бронзовое дерево в арке центрального входа. Особенно красиво здание выглядит вечером, когда включают подсветку.</string>
+
+    <!-- Музеи -->
+    <string name="national_museum_name">Национальный музей Республики Татарстан</string>
+    <string name="national_museum_short">Главный музей истории и культуры республики</string>
+    <string name="national_museum_address">ул. Кремлёвская, 2</string>
+    <string name="national_museum_description">Музей открылся в 1895 году и занимает здание Гостиного двора напротив Кремля. В его собрании — археологические находки времён Волжской Булгарии и Казанского ханства, старинные рукописи, ювелирные украшения и предметы быта.\n\nХорошее место, чтобы перед прогулкой по городу узнать о его истории.</string>
+
+    <string name="hermitage_name">Центр «Эрмитаж-Казань»</string>
+    <string name="hermitage_short">Выставки из Государственного Эрмитажа</string>
+    <string name="hermitage_address">Казанский Кремль</string>
+    <string name="hermitage_description">Центр открылся в 2005 году в здании бывшего юнкерского училища на территории Кремля. Здесь проходят временные выставки из собраний Государственного Эрмитажа в Санкт-Петербурге.\n\nЭкспозиции регулярно меняются, поэтому перед визитом стоит заглянуть в афишу.</string>
+
+    <string name="fine_arts_name">Государственный музей изобразительных искусств РТ</string>
+    <string name="fine_arts_short">Живопись в старинной усадьбе</string>
+    <string name="fine_arts_address">ул. Карла Маркса, 64</string>
+    <string name="fine_arts_description">Музей расположен в бывшей усадьбе генерала Сандецкого — красивом особняке конца XIX века. В коллекции — русская живопись, в том числе работы Ивана Шишкина, родившегося в Татарстане, западноевропейское искусство и работы татарских художников.</string>
+
+    <string name="soc_byt_name">Музей социалистического быта</string>
+    <string name="soc_byt_short">Путешествие в советское прошлое</string>
+    <string name="soc_byt_address">ул. Университетская, 6</string>
+    <string name="soc_byt_description">Небольшой частный музей, где воссоздана обстановка советских квартир: мебель, посуда, радиоприёмники, игрушки и плакаты.\n\nМногие экспонаты можно брать в руки, поэтому музей понравится и тем, кто помнит эти вещи, и тем, кто видит их впервые.</string>
+
+    <string name="chak_chak_museum_name">Музей чак-чака</string>
+    <string name="chak_chak_museum_short">Татарское чаепитие и история сладостей</string>
+    <string name="chak_chak_museum_address">ул. Парижской Коммуны, 18</string>
+    <string name="chak_chak_museum_description">Частный музей в старинном доме недалеко от Старо-Татарской слободы. На экскурсии рассказывают о традициях татарского гостеприимства и о том, как готовят чак-чак.\n\nВ конце экскурсии гостей ждёт чаепитие с национальными сладостями.</string>
+
+    <!-- Парки и набережные -->
+    <string name="kremlin_embankment_name">Кремлёвская набережная</string>
+    <string name="kremlin_embankment_short">Прогулка вдоль Казанки под стенами Кремля</string>
+    <string name="kremlin_embankment_address">Кремлёвская набережная</string>
+    <string name="kremlin_embankment_description">Широкая набережная тянется вдоль реки Казанки у подножия Кремлёвского холма. Здесь есть велодорожки, скамейки и площадки для отдыха.\n\nОсобенно красиво вечером: с набережной видны подсвеченные стены Кремля и мечеть Кул-Шариф.</string>
+
+    <string name="kaban_name">Набережная озера Нижний Кабан</string>
+    <string name="kaban_short">Озеро с легендами и музыкальным фонтаном</string>
+    <string name="kaban_address">ул. Марселя Салимжанова</string>
+    <string name="kaban_description">По легенде, на дне озера Кабан спрятаны сокровища казанских ханов. Сегодня его набережная — одно из любимых мест для прогулок.\n\nЛетом по вечерам здесь работает музыкальный фонтан, а рядом находятся Старо-Татарская слобода и театр имени Галиасгара Камала.</string>
+
+    <string name="black_lake_name">Парк «Чёрное озеро»</string>
+    <string name="black_lake_short">Уютный парк в самом центре города</string>
+    <string name="black_lake_address">ул. Дзержинского</string>
+    <string name="black_lake_description">Один из старейших парков Казани расположен в нескольких минутах ходьбы от улицы Баумана. В центре парка — небольшой пруд, вокруг — тенистые аллеи и скамейки.\n\nЗимой пруд превращается в популярный каток.</string>
+
+    <string name="gorky_park_name">Парк имени Горького</string>
+    <string name="gorky_park_short">Большой зелёный парк для всей семьи</string>
+    <string name="gorky_park_address">ул. Николая Ершова</string>
+    <string name="gorky_park_description">Центральный парк культуры и отдыха — большой парк с длинными аллеями, детскими площадками и аттракционами.\n\nХороший выбор для неспешной прогулки, пикника или отдыха с детьми.</string>
+
+    <!-- Татарская кухня -->
+    <string name="food_where">В татарских кафе, пекарнях и чайных города</string>
+
+    <string name="echpochmak_name">Эчпочмак</string>
+    <string name="echpochmak_short">Треугольный пирожок с мясом и картофелем</string>
+    <string name="echpochmak_description">Название переводится с татарского как «треугольник». Внутри — сочная начинка из мяса, картофеля и лука, которая запекается сырой, поэтому получается особенно ароматной.\n\nЭчпочмак — главная уличная еда Казани: его продают почти в каждой пекарне. Попробуйте с горячим бульоном или чаем.</string>
+
+    <string name="chak_chak_name">Чак-чак</string>
+    <string name="chak_chak_short">Самая известная татарская сладость</string>
+    <string name="chak_chak_description">Небольшие кусочки обжаренного теста, политые горячим медовым сиропом. Чак-чак — традиционное угощение на свадьбах и праздниках.\n\nЕго часто покупают в подарок: в Казани чак-чак продаётся в красивых коробках практически в каждом сувенирном магазине.</string>
+
+    <string name="gubadia_name">Губадия</string>
+    <string name="gubadia_short">Праздничный многослойный пирог</string>
+    <string name="gubadia_description">Высокий закрытый пирог с несколькими слоями начинки: рис, яйца, изюм и корт — сладкий топлёный творог. Губадию готовят по особым случаям, поэтому её считают праздничным блюдом.\n\nВ кафе её обычно подают кусочками к чаю.</string>
+
+    <string name="kystyby_name">Кыстыбый</string>
+    <string name="kystyby_short">Тонкая лепёшка с картофельным пюре</string>
+    <string name="kystyby_description">Пресная лепёшка, которую сразу после выпечки наполняют картофельным пюре или пшённой кашей и складывают пополам. Сверху её смазывают сливочным маслом.\n\nПростое, сытное и очень домашнее блюдо.</string>
+
+    <string name="talkysh_name">Талкыш калеве</string>
+    <string name="talkysh_short">Воздушная сладость из муки, мёда и сахара</string>
+    <string name="talkysh_description">Изысканная сладость, которую готовят вручную, вытягивая медово-сахарную массу с мукой в тонкие нити. Получается нежное лакомство, тающее во рту.\n\nТалкыш калеве удобно взять с собой в подарок.</string>
+
+    <!-- Театры и цирк -->
+    <string name="opera_name">Театр оперы и балета им. Мусы Джалиля</string>
+    <string name="opera_short">Главная музыкальная сцена республики</string>
+    <string name="opera_address">пл. Свободы, 2</string>
+    <string name="opera_description">Театр назван в честь татарского поэта-героя Мусы Джалиля. Здесь ставят классические оперы и балеты, а также проводят известные на всю страну Шаляпинский и Нуриевский фестивали.\n\nЗдание с колоннами — одно из самых красивых на площади Свободы.</string>
+
+    <string name="kamal_name">Татарский театр им. Галиасгара Камала</string>
+    <string name="kamal_short">Спектакли на татарском языке с переводом</string>
+    <string name="kamal_address">ул. Татарстан, 1</string>
+    <string name="kamal_description">Старейший татарский театр, история которого началась в 1906 году. Театр носит имя драматурга Галиасгара Камала.\n\nСпектакли идут на татарском языке, но для зрителей предусмотрен синхронный перевод на русский через наушники. Театр стоит на берегу озера Нижний Кабан.</string>
+
+    <string name="kachalov_name">Театр драмы им. В. И. Качалова</string>
+    <string name="kachalov_short">Один из старейших театров России</string>
+    <string name="kachalov_address">ул. Баумана, 48</string>
+    <string name="kachalov_description">Казанский Большой драматический театр ведёт свою историю с 1791 года и носит имя великого актёра Василия Качалова, начинавшего карьеру в Казани.\n\nВ репертуаре — классика и современные постановки. Театр находится прямо на пешеходной улице Баумана.</string>
+
+    <string name="circus_name">Казанский цирк</string>
+    <string name="circus_short">Здание в форме «летающей тарелки»</string>
+    <string name="circus_address">пл. Тысячелетия, 2</string>
+    <string name="circus_description">Здание цирка, открытое в 1967 году, похоже на летающую тарелку и стало одним из узнаваемых символов советского модернизма в Казани.\n\nЦирк стоит рядом с Кремлём и набережной Казанки, поэтому представление легко совместить с прогулкой.</string>
+
+    <string name="ekiyat_name">Театр кукол «Экият»</string>
+    <string name="ekiyat_short">Сказочный замок для юных зрителей</string>
+    <string name="ekiyat_address">ул. Петербургская, 57</string>
+    <string name="ekiyat_description">Татарский государственный театр кукол работает в здании, которое выглядит как настоящий сказочный замок с башенками.\n\nСпектакли идут на татарском и русском языках, а само здание стоит увидеть даже без билета на представление.</string>
+</resources>

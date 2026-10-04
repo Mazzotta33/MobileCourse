@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stylized Syuyumbike tower: tiers narrowing to a spire with a crescent on top -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Scaled down to stay inside the 66dp safe zone of adaptive icons -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.72"
+        android:scaleY="0.72"
+        android:translateY="2">
+    <!-- Tiers with arched windows cut out -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M36,82h36v-12h-36z M40,70h28v-10h-28z M43,60h22v-9h-22z M46,51h16v-8h-16z
+            M41,80v-6a2,2 0,0 1,4 0v6z M52,80v-6a2,2 0,0 1,4 0v6z M63,80v-6a2,2 0,0 1,4 0v6z
+            M46,68v-5a2,2 0,0 1,4 0v5z M58,68v-5a2,2 0,0 1,4 0v5z
+            M52,58v-4a2,2 0,0 1,4 0v4z" />
+    <!-- Spire -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M46,43L54,25L62,43z" />
+    <!-- Crescent -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:fillType="evenOdd"
+        android:pathData="M54,17m-4,0a4,4 0,1 0,8 0a4,4 0,1 0,-8 0 M55.5,16m-3.2,0a3.2,3.2 0,1 0,6.4 0a3.2,3.2 0,1 0,-6.4 0" />
+    <!-- Ground line -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M30,84h48v3h-48z" />
+    </group>
+</vector>
