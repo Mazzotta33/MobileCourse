@@ -319,7 +319,6 @@ fun PlaceDetails(
                 iconSize = 112.dp,
                 modifier = Modifier
                     .fillMaxWidth()
-                    // In landscape on phones the banner must leave room for the text
                     .height(min(220.dp, LocalConfiguration.current.screenHeightDp.dp * 0.4f))
                     .padding(horizontal = 16.dp),
                 shape = RoundedCornerShape(24.dp),

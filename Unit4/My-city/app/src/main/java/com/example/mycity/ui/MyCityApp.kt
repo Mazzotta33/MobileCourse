@@ -164,8 +164,6 @@ private fun CityNavigationApp(
         }
     }
 
-    // When this layout appears after another one (e.g. the phone was rotated and the window
-    // became wider), open the screen the user was on. A restored NavHost keeps its own back stack.
     val initialState = remember { uiState }
     var positionRestored by rememberSaveable { mutableStateOf(false) }
     LaunchedEffect(Unit) {
@@ -179,15 +177,11 @@ private fun CityNavigationApp(
             }
         }
     }
-    // Keep the ViewModel in sync with the visible screen, including system back navigation
     LaunchedEffect(currentScreen) {
         viewModel.onScreenShown(currentScreen)
     }
 }
 
-/**
- * Expanded layout: navigation drawer with categories, list of places and details side by side
- */
 @Composable
 private fun CityListAndDetailApp(
     uiState: CityUiState,

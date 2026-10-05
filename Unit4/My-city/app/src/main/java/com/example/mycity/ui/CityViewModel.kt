@@ -9,21 +9,10 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-/**
- * Screens of the app. On compact and medium windows they are destinations of the NavHost,
- * on expanded windows all of them are visible at once.
- */
 enum class CityScreen {
     Categories, Places, Details
 }
 
-/**
- * UI state of the app.
- *
- * [isShowingPlaces] and [isShowingDetails] remember which screen the user is on, so that the
- * position is restored when the layout changes (e.g. a phone is rotated and the window size class
- * changes from compact to medium).
- */
 data class CityUiState(
     val categories: List<Category> = Category.entries,
     val currentCategory: Category = Category.entries.first(),
@@ -40,19 +29,12 @@ class CityViewModel(
     private val _uiState = MutableStateFlow(stateForCategory(Category.entries.first()))
     val uiState: StateFlow<CityUiState> = _uiState.asStateFlow()
 
-    /**
-     * Opens the list of places of [category]. The first place becomes selected, so the details
-     * pane on large screens is never empty.
-     */
     fun selectCategory(category: Category) {
         _uiState.update {
             stateForCategory(category).copy(isShowingPlaces = true)
         }
     }
 
-    /**
-     * Opens the details of [place].
-     */
     fun selectPlace(place: Place) {
         _uiState.update {
             it.copy(
@@ -65,10 +47,6 @@ class CityViewModel(
         }
     }
 
-    /**
-     * Called by the navigation host whenever a screen becomes visible (including system back
-     * navigation), so the state always reflects what the user sees.
-     */
     fun onScreenShown(screen: CityScreen) {
         _uiState.update {
             it.copy(

@@ -67,7 +67,6 @@ fun HeroListItem(
 ) {
     Card(
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        // Зеленоватый фон карточки, как на скриншотах задания
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.secondaryContainer
         ),
