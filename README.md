@@ -1,7 +1,7 @@
-Sports - Starter Code
+Sports - Solution Code
 ==================================
 
-Starter code for the Android Basics with Compose: Sports app.
+Solution code for the Android Basics with Compose: Sports app.
 
 Introduction
 ------------
